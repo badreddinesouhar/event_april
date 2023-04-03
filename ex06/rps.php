@@ -2,6 +2,7 @@
 $a = readline('Choose rock, paper, or scissors: ');
 while ($a != 'rock' && $a != 'paper' && $a != 'scissors')
    $a = readline('Choose rock, paper, or scissors: ');
+srand(mktime(0));
 $i = rand(1,3);
 if ($i == 1)
     $choice = 'rock';

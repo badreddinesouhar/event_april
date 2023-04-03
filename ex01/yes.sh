@@ -1,5 +1,2 @@
 #!/bin/bash
-while :
-do 
-    echo "yes"
-done
+yes yes

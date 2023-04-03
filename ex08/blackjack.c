@@ -19,7 +19,8 @@ int calculate_hand(char *hand)
                 sum += hand[i] - '0';
                 break;
             case 'J':
-            case 'Q':
+            case 'T':
+            case 'D':
             case 'K':
                 sum += 10;
                 break;
